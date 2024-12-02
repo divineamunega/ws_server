@@ -1,0 +1,25 @@
+{
+	"name": "ws_server",
+	"version": "1.0.0",
+	"description": "A websocket server to listen to events",
+	"main": "server.js",
+	"type": "module",
+	"scripts": {
+		"dev": "nodemon ./src/server.js"
+	},
+	"keywords": [
+		"Javascript",
+		"Websocket",
+		"Database"
+	],
+	"author": "Divine Amunega",
+	"license": "ISC",
+	"dependencies": {
+		"express": "^4.21.1",
+		"socket.io": "^4.8.1",
+		"ws": "^8.18.0"
+	},
+	"devDependencies": {
+		"nodemon": "^3.1.7"
+	}
+}
